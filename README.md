@@ -1,7 +1,7 @@
 # analise-vendas-jogos-2d-vs-3d
 # 2D vs 3D: qual estilo de jogo vende mais?
 
-Esse foi meu projeto final no bootcamp de Data Analytics da TripleTen. A ideia surgiu de uma pergunta simples que qualquer estúdio de jogos precisa responder na hora de decidir onde investir: vale mais a pena apostar em jogos 2D ou 3D?
+A ideia desse projeto surgiu de uma pergunta simples que qualquer estúdio de jogos precisa responder na hora de decidir onde investir: vale mais a pena apostar em jogos 2D ou 3D?
 
 ## O que eu queria descobrir
 
@@ -18,7 +18,7 @@ A parte mais interessante veio quando olhei pro público infantil especificament
 
 ## Como cheguei nesses números
 
-1. Limpeza e tratamento dos dados (tinha valores ausentes e duplicados de propósito, pra eu praticar)
+1. Limpeza e tratamento dos dados
 2. Análise exploratória pra entender a distribuição dos dados antes de qualquer teste
 3. Três testes de hipótese: Mann-Whitney U, ANOVA de duas vias e teste Z de proporções
 4. Cálculo de alguns indicadores de negócio (participação de mercado, ticket médio por região etc.)
@@ -42,11 +42,9 @@ Dá pra explorar os dados de forma interativa aqui: [Tableau Public](https://pub
 
 ![Dashboard - Análise de Vendas de Jogos 2D vs 3D](imagens/dashboard.png)
 
-## Sobre o dataset
-
-Uma observação importante: os dados usados aqui são simulados. O objetivo do projeto era praticar todo o processo de análise (do pré-processamento até o teste de hipótese), não necessariamente chegar numa conclusão de mercado real.
-
 ---
 
 Raphael Victor
 [LinkedIn](#) · [GitHub](https://github.com/Rapha77y)
+
+*Nota técnica: dataset simulado, construído para fins de estudo do processo analítico.*
